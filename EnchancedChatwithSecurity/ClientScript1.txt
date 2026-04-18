@@ -1,0 +1,20 @@
+Script started on 2026-04-18 21:59:18+00:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="129" LINES="14"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/ChatSystem610Class [0;36m([1;31mmain[0;36m) [0m$ python client.py
+[?2004lLOGIN or REGISTER: LOGIN
+Username: Sunny
+Password: 123
+Authenticated successfully!
+Hello
+Sunny: Hello
+^CTraceback (most recent call last):
+  File "/workspaces/ChatSystem610Class/client.py", line 66, in <module>
+    write(username)
+  File "/workspaces/ChatSystem610Class/client.py", line 49, in write
+    message = input()
+              ^^^^^^^
+KeyboardInterrupt
+
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/ChatSystem610Class [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2026-04-18 22:04:12+00:00 [COMMAND_EXIT_CODE="130"]
