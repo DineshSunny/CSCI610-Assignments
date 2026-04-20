@@ -1,18 +1,25 @@
-Script started on 2026-04-19 23:47:52+00:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="164" LINES="13"]
-[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ python server.py
-[?2004lTraceback (most recent call last):
-  File "/workspaces/CSCI610-Assignments/MultiUserChat/server.py", line 8, in <module>
-    server.bind((HOST, PORT))
-OSError: [Errno 98] Address already in use
-[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ ^C[?2004l[?2004h[?2004l
-[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ 
-[?2004l[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ ls[K[Kpython server.py
-[?2004lTraceback (most recent call last):
-  File "/workspaces/CSCI610-Assignments/MultiUserChat/server.py", line 8, in <module>
-    server.bind((HOST, PORT))
-OSError: [Errno 98] Address already in use
-[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ z[K^C[?2004l[?2004h[?2004l
-[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [?2004l
-exit
+Script started on 2026-04-19 23:57:29+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="164" LINES="16"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [ytho[K[K[K[K[Kpython drt[K[K[Kserver.py
+[?2004lServer running on 127.0.0.1:5555
+Connected with ('127.0.0.1', 37374)
+Connected with ('127.0.0.1', 34180)
+Connected with ('127.0.0.1', 46892)
+^CTraceback (most recent call last):
+  File "/workspaces/CSCI610-Assignments/MultiUserChat/server.py", line 45, in <module>
+    receive_connections()
+  File "/workspaces/CSCI610-Assignments/MultiUserChat/server.py", line 37, in receive_connections
+    client, address = server.accept()
+                      ^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/socket.py", line 295, in accept
+    fd, addr = self._accept()
+               ^^^^^^^^^^^^^^
+KeyboardInterrupt
+^Z
+[1]+  Stopped                 python server.py
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+There are stopped jobs.
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
 
-Script done on 2026-04-19 23:49:21+00:00 [COMMAND_EXIT_CODE="130"]
+Script done on 2026-04-20 00:00:14+00:00 [COMMAND_EXIT_CODE="1"]

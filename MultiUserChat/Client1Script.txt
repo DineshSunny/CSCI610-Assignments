@@ -1,5 +1,20 @@
-Script started on 2026-04-19 23:48:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="164" LINES="13"]
-[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [?2004l
-exit
+Script started on 2026-04-19 23:57:06+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="164" LINES="16"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ python client.py
+[?2004lEnter your name: Sunny
+Janice: Hello Everyone
+Mellow: Hello Janice and Sunny
+Hrll   ello  w    to both of you
+^CException ignored in: <module 'threading' from '/usr/local/python/3.12.1/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/threading.py", line 1623, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+^Z
+[1]+  Stopped                 python client.py
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+There are stopped jobs.
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [K[A[K[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
 
-Script done on 2026-04-19 23:53:26+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-04-20 00:00:35+00:00 [COMMAND_EXIT_CODE="1"]

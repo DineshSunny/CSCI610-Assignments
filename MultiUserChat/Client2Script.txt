@@ -1,5 +1,15 @@
-Script started on 2026-04-19 23:48:18+00:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="164" LINES="13"]
-[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ [?2004l
-exit
+Script started on 2026-04-19 23:56:54+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="164" LINES="16"]
+[?2004h[0;32m@DineshSunny [0m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ python Client [K.[K[K[K[K[K[K[Kcloiernt[K[K[K[K[K[K[Ki[Klirnt[K[K[Kr[Kent.py
+[?2004lEnter your name: Mrllo    elo low
+Janice: Hello Everyone
+JH  Hello Jni  anice and Sunny
+Sunny: Hello to both of you
+^Z
+[1]+  Stopped                 python client.py
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+There are stopped jobs.
+[?2004h[0;32m@DineshSunny [1;31m➜ [1;34m/workspaces/CSCI610-Assignments/MultiUserChat [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
 
-Script done on 2026-04-19 23:53:30+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-04-20 00:00:06+00:00 [COMMAND_EXIT_CODE="1"]
